@@ -1,4 +1,4 @@
-name: "Send daily email to the on-call"
+name: "Send weekly email to the on-call"
 on:
   # Necessary to test the workflow on PRs.
   pull_request:
@@ -7,8 +7,8 @@ on:
     branches:
       - master
   schedule:
-    # Send out the report every hour automatically.
-    - cron:  '0 * * * *'
+    # Send out the report every Friday at noon PST
+    - cron:  '0 20 * * 5'
 
 jobs:
   test:
@@ -66,4 +66,4 @@ jobs:
       if: github.event_name == 'push'  # Do no send e-mails on pull-requests
       env:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-        SCRIPT_FILEPATH: .github/daily-report-sendgrid.js
+        SCRIPT_FILEPATH: .github/weekly-report-sendgrid.js

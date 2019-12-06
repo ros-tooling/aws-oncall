@@ -75,9 +75,9 @@
 
 #### Monitored Repositories
 
-**Latest** compiles ROS2 from source using tip of all development branches
-**Dashing** compiles ROS2 from source using the dashing branch
-**Eloquent** compiles ROS2 from source using the eloquent branch
+* **Latest** compiles ROS2 from source using tip of all development branches
+* **Eloquent** compiles ROS2 from source using the eloquent branches
+* **Dashing** compiles ROS2 from source using the dashing branches
 
 [colcon/colcon-bundle]: https://github.com/colcon/colcon-bundle
 [colcon/colcon-ros-bundle]: https://github.com/colcon/colcon-ros-bundle

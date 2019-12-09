@@ -1,4 +1,4 @@
-name: "Send weekly email to the on-call"
+name: "Send monthly email to the on-call"
 on:
   # Necessary to test the workflow on PRs.
   pull_request:

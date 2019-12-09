@@ -1,0 +1,64 @@
+name: "Generate monthly report for on-call"
+on:
+  # Necessary to test the workflow on PRs.
+  pull_request:
+  # Send on push so that the on-call get an updated report, if needed.
+  push:
+    branches:
+      - master
+  schedule:
+    # Send out the report every Friday at noon PST
+    # There isn't a simple cron to run on 1st monday before 2nd wednesday
+    - cron:  '0 20 * * 5'
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ros-security/github-contribution-report-generator@0.0.2
+      with:
+        authors-filter: |
+          AAlon
+          adam-dunc
+          brandonpelfrey
+          cevans87
+          dabonnie
+          emersonknapp
+          gauravgh
+          jaisontj
+          juanrh
+          lichenbo
+          mm318
+          murphm8
+          nburek
+          piraka9011
+          prajakta-gokhale
+          r-meagher
+          raghaprasad
+          ross-desmond
+          rutvih
+          ryanewel
+          samuelgundry
+          thomas-moulard
+          timrobotson
+          xabxx
+          yyu
+          zmichaels11
+        organizations-filter: |
+          ament
+          colcon
+          ros
+          ros-security
+          ros-tooling
+          ros2
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        since-n-days-ago: 30
+    - uses: actions/upload-artifact@master
+      with:
+        name: html-report
+        path: report.html
+    - uses: actions/upload-artifact@master
+      with:
+        name: markdown-report
+        path: report.md

@@ -56,7 +56,7 @@
 
 | Repository Name       | Latest | Coverage | Issues                                                                                                                      | PRs                                                                                                                                  |
 |-----------------------|--------|----------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [ros2/rosbag2]        | N/A    | N/A      | [![GitHub issues](https://img.shields.io/github/issues/ros2/rosbag2)](https://github.com/ros2/rosbag2/issues)               | [![GitHub pull requests](https://img.shields.io/github/issues-pr/ros2/rosbag2)](https://github.com/ros2/rosbag2/pulls)               |
+| [ros2/rosbag2]        | [![GitHub Action Status](https://github.com/ros2/rosbag2/workflows/Test%20rosbag2/badge.svg)](https://github.com/ros2/rosbag2/actions)    | N/A      | [![GitHub issues](https://img.shields.io/github/issues/ros2/rosbag2)](https://github.com/ros2/rosbag2/issues)               | [![GitHub pull requests](https://img.shields.io/github/issues-pr/ros2/rosbag2)](https://github.com/ros2/rosbag2/pulls)               |
 | [ros2/rosbag2_bag_v2] | N/A    | N/A      | [![GitHub issues](https://img.shields.io/github/issues/ros2/rosbag2_bag_v2)](https://github.com/ros2/rosbag2_bag_v2/issues) | [![GitHub pull requests](https://img.shields.io/github/issues-pr/ros2/rosbag2_bag_v2)](https://github.com/ros2/rosbag2_bag_v2/pulls) |
 
 ##### Eloquent

@@ -35,44 +35,48 @@
 | [ros-security/launch_ros_sandbox]      | [![GitHub Action Status][launch-ros-sandbox-badge]][launch-ros-sandbox-action] | [![codecov][launch-ros-sandbox-codecov-badge]][launch-ros-sandbox-codecov] | [![GitHub issues][launch-ros-sandbox-issues-badge]][launch-ros-sandbox-issues]              | [![GitHub pull requests][launch-ros-sandbox-pr-badge]][launch-ros-sandbox-pr]             |
 | [ros2/rcpputils]                       | N/A                                                                            | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
 
-
 ##### Eloquent
+
 | Repository Name                        | dev                                                                                                                                                                                                 | source                                                                                                                                                                                                              | x86_64                                                                                                                                                                                                                                  | ARM 64-bits                                                                                                                                                                                                                                                 | ARM 32-bits                                                                                                                                                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ros-tooling/cross_compile]            | [![Build Status](http://build.ros2.org/view/Edev/job/Edev__cross_compile__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Edev/job/Edev__cross_compile__ubuntu_bionic_amd64/)           | [![Build Status](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__cross_compile__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__cross_compile__ubuntu_bionic__source/)           | [![Build Status](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__cross_compile__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__cross_compile__ubuntu_bionic_amd64__binary/)           | [![Build Status](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary/)           | [![Build Status](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary/)           |
-| [ros2/rcpputils]                       | [![Build Status](http://build.ros2.org/view/Edev/job/Edev__rcpputils__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Edev/job/Edev__rcpputils__ubuntu_bionic_amd64/)                   | [![Build Status](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rcpputils__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rcpputils__ubuntu_bionic__source/)                   | [![Build Status](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rcpputils__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rcpputils__ubuntu_bionic_amd64__binary/)                   | [![Build Status](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary/)                   | [![Build Status](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary/)                   |
-
-
+| [ros-tooling/cross_compile]            | [[![Build Status][cross-compile-eloquent-dev-badge]][cross-compile-eloquent-dev]           | [![Build Status][cross-compile-eloquent-src-badge]][cross-compile-eloquent-src]                 | [![Build Status][cross-compile-eloquent-x86-badge]][cross-compile-eloquent-x86]           | [![Build Status][cross-compile-eloquent-arm64-badge]][cross-compile-eloquent-arm64]           | [![Build Status][cross-compile-eloquent-armhf-badge]][cross-compile-eloquent-armhf-badge] |
+| [ros2/rcpputils]                       | [![Build Status][rcpputils-eloquent-dev-badge]][rcpputils-eloquent-dev]                   | [![Build Status][rcpputils-eloquent-src-badge]][rcpputils-eloquent-src]                         | [![Build Status][rcpputils-eloquent-x86-badge]][rcpputils-eloquent-x86]                   | [![Build Status][rcpputils-eloquent-arm64-badge]][rcpputils-eloquent-arm64]                   | [![Build Status][rcpputils-eloquent-armhf-badge]][rcpputils-eloquent-armhf]               |
 ##### Dashing
 
-| Repository Name                        | dev                                                                                                                                                                                                 | source                                                                                                                                                                                                              | x86_64                                                                                                                                                                                                                                  | ARM 64-bits                                                                                                                                                                                                                                                 | ARM 32-bits                                                                                                                                                                                                                                                 |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ros-tooling/cross_compile]            | [![Build Status](http://build.ros2.org/view/Ddev/job/Ddev__cross_compile__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Ddev/job/Ddev__cross_compile__ubuntu_bionic_amd64/)           | [![Build Status](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__cross_compile__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__cross_compile__ubuntu_bionic__source/)           | [![Build Status](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__cross_compile__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__cross_compile__ubuntu_bionic_amd64__binary/)           | [![Build Status](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary/)           | [![Build Status](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary/)           |
-| [ros-tooling/setup-ros2]               | [![Build Status](http://build.ros2.org/view/Ddev/job/Ddev__launch_ros_sandbox__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Ddev/job/Ddev__launch_ros_sandbox__ubuntu_bionic_amd64/) | [![Build Status](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__launch_ros_sandbox__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__launch_ros_sandbox__ubuntu_bionic__source/) | [![Build Status](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__launch_ros_sandbox__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__launch_ros_sandbox__ubuntu_bionic_amd64__binary/) | [![Build Status](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__launch_ros_sandbox__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__launch_ros_sandbox__ubuntu_bionic_arm64__binary/) | [![Build Status](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__launch_ros_sandbox__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__launch_ros_sandbox__ubuntu_bionic_armhf__binary/) |
-| [ros2/rcpputils]                       | [![Build Status](http://build.ros2.org/view/Ddev/job/Ddev__rcpputils__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Ddev/job/Ddev__rcpputils__ubuntu_bionic_amd64/)                   | [![Build Status](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rcpputils__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rcpputils__ubuntu_bionic__source/)                   | [![Build Status](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rcpputils__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rcpputils__ubuntu_bionic_amd64__binary/)                   | [![Build Status](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary/)                   | [![Build Status](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary/)                   |
+| Repository Name                        | dev                                                                                     | source                                                                                        | x86_64                                                                                  | ARM 64-bits                                                                                 | ARM 32-bits                                                                             |
+|----------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [colcon/colcon-bundle]                 | N/A                                                                                     | N/A                                                                                           | N/A                                                                                     | N/A                                                                                         |                                                                                         |
+| [colcon/colcon-ros-bundle]             | N/A                                                                                     | N/A                                                                                           | N/A                                                                                     | N/A                                                                                         |                                                                                         |
+| [ros-tooling/action-ros2-ci]           | N/A                                                                                     | N/A                                                                                           | N/A                                                                                     | N/A                                                                                         | N/A                                                                                     |
+| [ros-tooling/action-ros2-lint]         | N/A                                                                                     | N/A                                                                                           | N/A                                                                                     | N/A                                                                                         | N/A                                                                                     |
+| [ros-tooling/cross_compile]            | [![Build Status][cross-compile-dashing-dev-badge]][cross-compile-dashing-dev]           | [![Build Status][cross-compile-dashing-src-badge]][cross-compile-dashing-src]                 | [![Build Status][cross-compile-dashing-x86-badge]][cross-compile-dashing-x86]           | [![Build Status][cross-compile-dashing-arm64-badge]][cross-compile-dashing-arm64]           | [![Build Status][cross-compile-dashing-armhf-badge]][cross-compile-dashing-armhf-badge] |
+| [ros-tooling/file_talker]              | N/A                                                                                     | N/A                                                                                           | N/A                                                                                     | N/A                                                                                         | N/A                                                                                     |
+| [ros-tooling/system_metrics_collector] | N/A                                                                                     | N/A                                                                                           | N/A                                                                                     | N/A                                                                                         | N/A                                                                                     |
+| [ros-tooling/launch_ros_sandbox]       | [![Build Status][launch-ros-sandbox-dashing-dev-badge]][launch-ros-sandbox-dashing-dev] | [![Build Status][launch-ros-sandbox-dashing-src-badge]][launch-ros-sandbox-dashing-dev-badge] | [![Build Status][launch-ros-sandbox-dashing-x86-badge]][launch-ros-sandbox-dashing-x86] | [![Build Status][launch-ros-sandbox-dashing-arm64-badge]][launch-ros-sandbox-dashing-arm64] | [![Build Status][launch-ros-sandbox-dashing-armhf]][launch-ros-sandbox-dashing-armhf]   |
+| [ros2/rcpputils]                       | [![Build Status][rcpputils-dashing-dev-badge]][rcpputils-dashing-dev]                   | [![Build Status][rcpputils-dashing-src-badge]][rcpputils-dashing-src]                         | [![Build Status][rcpputils-dashing-x86-badge]][rcpputils-dashing-x86]                   | [![Build Status][rcpputils-dashing-arm64-badge]][rcpputils-dashing-arm64]                   | [![Build Status][rcpputils-dashing-armhf-badge]][rcpputils-dashing-armhf]               |
 
 #### Monitored Repositories
 
 ##### Latest (`master`)
 
-| Repository Name       | Latest                                                                                                                                                        | Coverage | Issues                                                                                                                      | PRs                                                                                                                                  |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [ros2/rosbag2]        | [![GitHub Action Status](https://github.com/ros2/rosbag2/workflows/Test%20rosbag2/badge.svg)](https://github.com/ros2/rosbag2/actions)                        | N/A      | [![GitHub issues](https://img.shields.io/github/issues/ros2/rosbag2)](https://github.com/ros2/rosbag2/issues)               | [![GitHub pull requests](https://img.shields.io/github/issues-pr/ros2/rosbag2)](https://github.com/ros2/rosbag2/pulls)               |
-| [ros2/rosbag2_bag_v2] | [![GitHub Action Status](https://github.com/ros2/rosbag2_bag_v2/workflows/Test%20rosbag2_bag_v2/badge.svg)](https://github.com/ros2/rosbag2_bag_v2/actions)   | N/A      | [![GitHub issues](https://img.shields.io/github/issues/ros2/rosbag2_bag_v2)](https://github.com/ros2/rosbag2_bag_v2/issues) | [![GitHub pull requests](https://img.shields.io/github/issues-pr/ros2/rosbag2_bag_v2)](https://github.com/ros2/rosbag2_bag_v2/pulls) |
+| Repository Name       | Latest | Coverage | Issues                                                                                                                      | PRs                                                                                                                                  |
+|-----------------------|--------|----------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| [ros2/rosbag2]        | [![GitHub Action Status][rosbag2-action-badge]][rosbag2-action]    | N/A      | [![GitHub issues][rosbag2-issues-badge]][rosbag2-issues]               | [![GitHub pull requests][rosbag2-pr-badge]][rosbag2-pr]               |
+| [ros2/rosbag2_bag_v2] | N/A    | N/A      | [![GitHub issues][rosbag2-bagv2-issues-badge]][rosbag2-bagv2-issues] | [![GitHub pull requests][rosbag2-bagv2-pr-badge]][rosbag2-bagv2-pr] |
 
 ##### Eloquent
 
 | Repository Name       | dev                                                                                                                                                                                         | source                                                                                                                                                                                                                      | x86_64                                                                                                                                                                                                                                          | ARM 64-bits                                                                                                                                                                                                                                                         | ARM 32-bits                                                                                                                                                                                                                                                         |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ros2/rosbag2]        | [![Build Status](http://build.ros2.org/view/Edev/job/Edev__rosbag2__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Edev/job/Edev__rosbag2__ubuntu_bionic_amd64/)               | [![Build Status](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2__ubuntu_bionic__source/)                               | [![Build Status](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2__ubuntu_bionic_amd64__binary/)                               | [![Build Status](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary/)                               | [![Build Status](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary/)                               |
-| [ros2/rosbag2_bag_v2] | [![Build Status](http://build.ros2.org/view/Edev/job/Edev__rosbag2_bag_v2__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Edev/job/Edev__rosbag2_bag_v2__ubuntu_bionic_amd64/) | [![Build Status](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source/) | [![Build Status](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary/) | [![Build Status](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary/) | [![Build Status](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary/) |
+| [ros2/rosbag2]        | [![Build Status][rosbag2-eloquent-dev-badge]][rosbag2-eloquent-dev]              | [![Build Status][rosbag2-eloquent-src-badge]][rosbag2-eloquent-src]                              | [![Build Status][rosbag2-eloquent-x86-badge]][rosbag2-eloquent-x86]                              | [![Build Status][rosbag2-eloquent-arm64-badge]][rosbag2-eloquent-arm64]                               | [![Build Status][rosbag2-eloquent-armhf-badge]][rosbag2-eloquent-armhf]                              |
+| [ros2/rosbag2_bag_v2] | [![Build Status][rosbag2-bagv2-eloquent-dev-badge]][rosbag2-bagv2-eloquent-dev] | [![Build Status][rosbag2-bagv2-eloquent-src-badge]][rosbag2-bagv2-eloquent-src] | [![Build Status][rosbag2-bagv2-eloquent-x86-badge]][rosbag2-bagv2-eloquent-x86] | [![Build Status][rosbag2-bagv2-eloquent-arm64-badge]][rosbag2-bagv2-eloquent-arm64] | [![Build Status][rosbag2-bagv2-eloquent-armhf-badge]][rosbag2-bagv2-eloquent-armhf] |
 
 ##### Dashing
 
 | Repository Name | dev                                                                                                                                                                           | source                                                                                                                                                                                        | x86_64                                                                                                                                                                                                            | ARM 64-bits                                                                                                                                                                                                                           | ARM 32-bits                                                                                                                                                                                                                           |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ros2/rosbag2]  | [![Build Status](http://build.ros2.org/view/Ddev/job/Ddev__rosbag2__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Ddev/job/Ddev__rosbag2__ubuntu_bionic_amd64/) | [![Build Status](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2__ubuntu_bionic__source/) | [![Build Status](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2__ubuntu_bionic_amd64__binary/) | [![Build Status](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary/) | [![Build Status](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary/) |
-| [ros2/rosbag2_bag_v2] | [![Build Status](http://build.ros2.org/view/Ddev/job/Ddev__rosbag2_bag_v2__ubuntu_bionic_amd64/badge/icon)](http://build.ros2.org/view/Ddev/job/Ddev__rosbag2_bag_v2__ubuntu_bionic_amd64/) | [![Build Status](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source/badge/icon)](http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source/) | [![Build Status](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary/) | [![Build Status](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary/) | [![Build Status](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary/badge/icon)](http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary/) |
+| [ros2/rosbag2]        | [![Build Status][rosbag2-dashing-dev-badge]][rosbag2-dashing-dev]              | [![Build Status][rosbag2-dashing-src-badge]][rosbag2-dashing-src]                              | [![Build Status][rosbag2-dashing-x86-badge]][rosbag2-dashing-x86]                              | [![Build Status][rosbag2-dashing-arm64-badge]][rosbag2-dashing-arm64]                               | [![Build Status][rosbag2-dashing-armhf-badge]][rosbag2-dashing-armhf]                              |
+| [ros2/rosbag2_bag_v2] | [![Build Status][rosbag2-bagv2-dashing-dev-badge]][rosbag2-bagv2-dashing-dev] | [![Build Status][rosbag2-bagv2-dashing-src-badge]][rosbag2-bagv2-dashing-src] | [![Build Status][rosbag2-bagv2-dashing-x86-badge]][rosbag2-bagv2-dashing-x86] | [![Build Status][rosbag2-bagv2-dashing-arm64-badge]][rosbag2-bagv2-dashing-arm64] | [![Build Status][rosbag2-bagv2-dashing-armhf-badge]][rosbag2-bagv2-dashing-armhf] |
 
 #### Appendix
 
@@ -136,75 +140,184 @@
 [nightly-win-packaging]: https://ci.ros2.org/view/packaging/job/packaging_windows
 [nightly-win-packaging-badge]: https://ci.ros2.org/view/packaging/job/packaging_windows/badge/icon
 
-[colcon-bundle-travis]: https://travis-ci.org/colcon/colcon-bundle
-[colcon-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-bundle.svg?branch=master
-[colcon-bundle-issues-badge]: https://img.shields.io/github/issues/colcon/colcon-bundle
-[colcon-ros-bundle-travis]: https://travis-ci.org/colcon/colcon-ros-bundle
-[colcon-ros-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-ros-bundle.svg?branch=master
-[colcon-ros-bundle-issues-badge]: https://img.shields.io/github/issues/colcon/colcon-ros-bundle
 [action-ros2-ci-action]: https://github.com/ros-tooling/action-ros2-ci/actions
 [action-ros2-ci-badge]: https://github.com/ros-tooling/action-ros2-ci/workflows/Test%20action-ros2-ci/badge.svg
 [action-ros2-ci-issues]: https://github.com/ros-tooling/action-ros2-ci/issues
 [action-ros2-ci-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros2-ci
+[action-ros2-ci-pr]: https://github.com/ros-tooling/action-ros2-ci/pulls
+[action-ros2-ci-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros2-ci
+
 [action-ros2-lint-action]: https://github.com/ros-tooling/action-ros2-lint/actions
 [action-ros2-lint-badge]: https://github.com/ros-tooling/action-ros2-lint/workflows/Test%20action-ros2-lint/badge.svg
+[action-ros2-lint-issues]: https://github.com/ros-tooling/action-ros2-lint/issues
 [action-ros2-lint-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros2-lint
+[action-ros2-lint-pr]: https://github.com/ros-tooling/action-ros2-lint/pulls
+[action-ros2-lint-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros2-lint
+
+[colcon-bundle-travis]: https://travis-ci.org/colcon/colcon-bundle
+[colcon-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-bundle.svg?branch=master
+[colcon-bundle-issues]: https://github.com/colcon/colcon-bundle/issues
+[colcon-bundle-issues-badge]: https://img.shields.io/github/issues/colcon/colcon-bundle
+[colcon-bundle-pr]: https://github.com/colcon/colcon-bundle/pulls
+[colcon-bundle-pr-badge]: https://img.shields.io/github/issues-pr/colcon/colcon-bundle
+
+[colcon-ros-bundle-travis]: https://travis-ci.org/colcon/colcon-ros-bundle
+[colcon-ros-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-ros-bundle.svg?branch=master
+[colcon-ros-bundle-issues]: https://github.com/colcon/colcon-ros-bundle/issues
+[colcon-ros-bundle-issues-badge]: https://img.shields.io/github/issues/colcon/colcon-ros-bundle
+[colcon-ros-bundle-pr]: https://github.com/colcon/colcon-ros-bundle/pulls
+[colcon-ros-bundle-pr-badge]: https://img.shields.io/github/issues-pr/colcon/colcon-ros-bundle
+
 [cross-compile-action]: https://github.com/ros-tooling/cross_compile/actions
 [cross-compile-badge]: https://github.com/ros-tooling/cross_compile/workflows/Test%20cross_compile/badge.svg
 [cross-compile-issues]: https://github.com/ros-tooling/cross_compile/issues
 [cross-compile-issues-badge]: https://img.shields.io/github/issues/ros-tooling/cross_compile
+[cross-compile-pr]: https://github.com/ros-tooling/cross_compile/pulls
+[cross-compile-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/cross_compile
 [cross-compile-codecov]: https://codecov.io/gh/ros-tooling/cross_compile
 [cross-compile-codecov-badge]: https://codecov.io/gh/ros-tooling/cross_compile/branch/master/graph/badge.svg
+
 [file-talker-action]: https://github.com/ros-tooling/file_talker/actions
 [file-talker-badge]: https://github.com/ros-tooling/file_talker/workflows/Test%20file_talker/badge.svg
+[file-talker-issues]: https://github.com/ros-tooling/file_talker/issues
 [file-talker-issues-badge]: https://img.shields.io/github/issues/ros-tooling/file_talker
-[system-metrics-action]: https://github.com/ros-tooling/system_metrics_collector/actions
-[system-metrics-badge]: https://github.com/ros-tooling/system_metrics_collector/workflows/Test%20system_metrics_collector/badge.svg
-[system-metrics-codecov]: https://codecov.io/gh/ros-tooling/system_metrics_collector
-[system-metrics-codecov-badge]: https://codecov.io/gh/ros-tooling/system_metrics_collector/branch/master/graph/badge.svg
-[system-metrics-collector-issues-badge]: https://img.shields.io/github/issues/ros-tooling/system_metrics_collector
-[setup-ros-action]: https://github.com/ros-tooling/setup-ros/actions
-[setup-ros-badge]: https://github.com/ros-tooling/setup-ros/workflows/Test%20setup-ros/badge.svg
-[setup-ros-issues]: https://github.com/ros-tooling/setup-ros/issues
-[setup-ros-issues-badge]: https://img.shields.io/github/issues/ros-tooling/setup-ros
+[file-talker-pr]: https://github.com/ros-tooling/file_talker/pulls
+[file-talker-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/file_talker
+
 [launch-ros-sandbox-action]: https://github.com/ros-security/launch_ros_sandbox/actions
 [launch-ros-sandbox-badge]: https://github.com/ros-security/launch_ros_sandbox/workflows/Test%20launch_ros_sandbox/badge.svg
 [launch-ros-sandbox-codecov]: https://codecov.io/gh/ros-security/launch_ros_sandbox
 [launch-ros-sandbox-codecov-badge]: https://codecov.io/gh/ros-security/launch_ros_sandbox/branch/master/graph/badge.svg
+[launch-ros-sandbox-issues]: https://github.com/ros-security/launch_ros_sandbox/issues
 [launch-ros-sandbox-issues-badge]: https://img.shields.io/github/issues/ros-security/launch_ros_sandbox
+[launch-ros-sandbox-pr]: https://github.com/ros-security/launch_ros_sandbox/pulls
+[launch-ros-sandbox-pr-badge]: https://img.shields.io/github/issues-pr/ros-security/launch_ros_sandbox
+
 [rcpputils-issues-badge]: https://img.shields.io/github/issues/ros2/rcpputils
 [rcpputils-issues]: https://github.com/ros2/rcpputils/issues
-
-
-[colcon-bundle-issues]: https://github.com/colcon/colcon-bundle/issues
-[colcon-ros-bundle-issues]: https://github.com/colcon/colcon-ros-bundle/issues
-[action-ros2-lint-issues]: https://github.com/ros-tooling/action-ros2-lint/issues
-[cross-compile-issues]: https://github.com/ros-tooling/cross_compile/issues
-[file-talker-issues]: https://github.com/ros-tooling/file_talker/issues
-[system-metrics-collector-issues]: https://github.com/ros-tooling/system_metrics_collector/issues
-[launch-ros-sandbox-issues]: https://github.com/ros-security/launch_ros_sandbox/issues
-
-[colcon-bundle-pr-badge]: https://img.shields.io/github/issues-pr/colcon/colcon-bundle
-[colcon-ros-bundle-pr-badge]: https://img.shields.io/github/issues-pr/colcon/colcon-ros-bundle
-[action-ros2-ci-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros2-ci
-[action-ros2-lint-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros2-lint
-[cross-compile-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/cross_compile
-[file-talker-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/file_talker
-[system-metrics-collector-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/system_metrics_collector
-[setup-ros-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/setup-ros
-[launch-ros-sandbox-pr-badge]: https://img.shields.io/github/issues-pr/ros-security/launch_ros_sandbox
 [rcpputils-pr-badge]: https://img.shields.io/github/issues-pr/ros2/rcpputils
-
-[colcon-bundle-pr]: https://github.com/colcon/colcon-bundle/pulls
-[colcon-ros-bundle-pr]: https://github.com/colcon/colcon-ros-bundle/pulls
-[action-ros2-ci-pr]: https://github.com/ros-tooling/action-ros2-ci/pulls
-[action-ros2-lint-pr]: https://github.com/ros-tooling/action-ros2-lint/pulls
-[cross-compile-pr]: https://github.com/ros-tooling/cross_compile/pulls
-[file-talker-pr]: https://github.com/ros-tooling/file_talker/pulls
-[system-metrics-collector-pr]: https://github.com/ros-tooling/system_metrics_collector/pulls
-[setup-ros-pr]: https://github.com/ros-tooling/setup-ros2/pulls
-[launch-ros-sandbox-pr]: https://github.com/ros-security/launch_ros_sandbox/pulls
 [rcpputils-pr]: https://github.com/ros2/rcpputils/pulls
 
+[rosbag2-action]: https://github.com/ros2/rosbag2/actions
+[rosbag2-badge]: https://github.com/ros2/rosbag2/workflows/Test%20rosbag2/badge.svg
+[rosbag2-issues]: https://github.com/ros2/rosbag2/issues
+[rosbag2-issues-badge]: https://img.shields.io/github/issues/ros2/rosbag2
+[rosbag2-pr]: https://github.com/ros2/rosbag2/pulls
+[rosbag2-pr-badge]: https://img.shields.io/github/issues-pr/ros2/rosbag2
 
+[rosbag2-bagv2-issues]: https://github.com/ros2/rosbag2_bag_v2/issues
+[rosbag2-bagv2-issues-badge]: https://img.shields.io/github/issues/ros2/rosbag2_bag_v2
+[rosbag2-bagv2-pr]: https://github.com/ros2/rosbag2_bag_v2/pulls
+[rosbag2-bagv2-pr-badge]: https://img.shields.io/github/issues-pr/ros2/rosbag2_bag_v2
 
+[system-metrics-action]: https://github.com/ros-tooling/system_metrics_collector/actions
+[system-metrics-badge]: https://github.com/ros-tooling/system_metrics_collector/workflows/Test%20system_metrics_collector/badge.svg
+[system-metrics-codecov]: https://codecov.io/gh/ros-tooling/system_metrics_collector
+[system-metrics-codecov-badge]: https://codecov.io/gh/ros-tooling/system_metrics_collector/branch/master/graph/badge.svg
+[system-metrics-collector-issues]: https://github.com/ros-tooling/system_metrics_collector/issues
+[system-metrics-collector-issues-badge]: https://img.shields.io/github/issues/ros-tooling/system_metrics_collector
+[system-metrics-collector-pr]: https://github.com/ros-tooling/system_metrics_collector/pulls
+[system-metrics-collector-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/system_metrics_collector
+
+[setup-ros-action]: https://github.com/ros-tooling/setup-ros/actions
+[setup-ros-badge]: https://github.com/ros-tooling/setup-ros/workflows/Test%20setup-ros/badge.svg
+[setup-ros-issues]: https://github.com/ros-tooling/setup-ros/issues
+[setup-ros-issues-badge]: https://img.shields.io/github/issues/ros-tooling/setup-ros
+[setup-ros-pr]: https://github.com/ros-tooling/setup-ros2/pulls
+[setup-ros-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/setup-ros
+
+[cross-compile-dashing-dev-badge]: http://build.ros2.org/view/Ddev/job/Ddev__cross_compile__ubuntu_bionic_amd64/badge/icon
+[cross-compile-dashing-src-badge]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__cross_compile__ubuntu_bionic__source/badge/icon
+[cross-compile-dashing-x86-badge]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__cross_compile__ubuntu_bionic_amd64__binary/badge/icon
+[cross-compile-dashing-arm64-badge]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary/badge/icon
+[cross-compile-dashing-armhf-badge]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary/badge/icon
+
+[cross-compile-dashing-dev]: http://build.ros2.org/view/Ddev/job/Ddev__cross_compile__ubuntu_bionic_amd64
+[cross-compile-dashing-src]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__cross_compile__ubuntu_bionic__source
+[cross-compile-dashing-x86]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__cross_compile__ubuntu_bionic_amd64__binary
+[cross-compile-dashing-arm64]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary
+[cross-compile-dashing-armhf]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary
+
+[cross-compile-eloquent-dev-badge]: http://build.ros2.org/view/Edev/job/Edev__cross_compile__ubuntu_bionic_amd64/badge/icon
+[cross-compile-eloquent-src-badge]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__cross_compile__ubuntu_bionic__source/badge/icon
+[cross-compile-eloquent-x86-badge]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__cross_compile__ubuntu_bionic_amd64__binary/badge/icon
+[cross-compile-eloquent-arm64-badge]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary/badge/icon
+[cross-compile-eloquent-armhf-badge]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary/badge/icon
+
+[cross-compile-eloquent-dev]: http://build.ros2.org/view/Edev/job/Edev__cross_compile__ubuntu_bionic_amd64
+[cross-compile-eloquent-src]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__cross_compile__ubuntu_bionic__source
+[cross-compile-eloquent-x86]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__cross_compile__ubuntu_bionic_amd64__binary
+[cross-compile-eloquent-arm64]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__cross_compile__ubuntu_bionic_arm64__binary
+[cross-compile-eloquent-armhf]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__cross_compile__ubuntu_bionic_armhf__binary
+
+[launch-ros-sandbox-dashing-dev-badge]: http://build.ros2.org/view/Ddev/job/Ddev__launch_ros_sandbox__ubuntu_bionic_amd64/badge/icon
+[launch-ros-sandbox-dashing-src-badge]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__launch_ros_sandbox__ubuntu_bionic__source/badge/icon
+[launch-ros-sandbox-dashing-x86-badge]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__launch_ros_sandbox__ubuntu_bionic_amd64__binary/badge/icon
+[launch-ros-sandbox-dashing-arm64-badge]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__launch_ros_sandbox__ubuntu_bionic_arm64__binary/badge/icon
+[launch-ros-sandbox-dashing-armhf-badge]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__launch_ros_sandbox__ubuntu_bionic_armhf__binary/badge/icon
+
+[rcpputils-dashing-dev]: http://build.ros2.org/view/Ddev/job/Ddev__rcpputils__ubuntu_bionic_amd64
+[rcpputils-dashing-dev-badge]: http://build.ros2.org/view/Ddev/job/Ddev__rcpputils__ubuntu_bionic_amd64/badge/icon
+[rcpputils-dashing-src]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rcpputils__ubuntu_bionic__source
+[rcpputils-dashing-src-badge]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rcpputils__ubuntu_bionic__source/badge/icon
+[rcpputils-dashing-x86]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rcpputils__ubuntu_bionic_amd64__binary
+[rcpputils-dashing-x86-badge]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rcpputils__ubuntu_bionic_amd64__binary/badge/icon
+[rcpputils-dashing-arm64]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary
+[rcpputils-dashing-arm64-badge]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary/badge/icon
+[rcpputils-dashing-armhf]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary
+[rcpputils-dashing-armhf-badge]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary/badge/icon
+
+[rcpputils-eloquent-dev]: http://build.ros2.org/view/Edev/job/Edev__rcpputils__ubuntu_bionic_amd64
+[rcpputils-eloquent-dev-badge]: http://build.ros2.org/view/Edev/job/Edev__rcpputils__ubuntu_bionic_amd64/badge/icon
+[rcpputils-eloquent-src]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rcpputils__ubuntu_bionic__source
+[rcpputils-eloquent-src-badge]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rcpputils__ubuntu_bionic__source/badge/icon
+[rcpputils-eloquent-x86]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rcpputils__ubuntu_bionic_amd64__binary
+[rcpputils-eloquent-x86-badge]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rcpputils__ubuntu_bionic_amd64__binary/badge/icon
+[rcpputils-eloquent-arm64]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary
+[rcpputils-eloquent-arm64-badge]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rcpputils__ubuntu_bionic_arm64__binary/badge/icon
+[rcpputils-eloquent-armhf]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary
+[rcpputils-eloquent-armhf-badge]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rcpputils__ubuntu_bionic_armhf__binary/badge/icon
+
+[rosbag2-dashing-dev]: http://build.ros2.org/view/Ddev/job/Ddev__rosbag2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-dashing-dev-badge]: http://build.ros2.org/view/Ddev/job/Ddev__rosbag2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-dashing-src]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2__ubuntu_bionic__source
+[rosbag2-dashing-src-badge]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2__ubuntu_bionic__source
+[rosbag2-dashing-x86]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2__ubuntu_bionic_amd64__binary
+[rosbag2-dashing-x86-badge]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2__ubuntu_bionic_amd64__binary/badge/icon
+[rosbag2-dashing-arm64]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary
+[rosbag2-dashing-arm64-badge]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary/badge/icon
+[rosbag2-dashing-armhf]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary
+[rosbag2-dashing-armhf-badge]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary/badge/icon
+
+[rosbag2-eloquent-dev]: http://build.ros2.org/view/Edev/job/Edev__rosbag2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-eloquent-dev-badge]: http://build.ros2.org/view/Edev/job/Edev__rosbag2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-eloquent-src]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2__ubuntu_bionic__source
+[rosbag2-eloquent-src-badge]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2__ubuntu_bionic__source
+[rosbag2-eloquent-x86]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2__ubuntu_bionic_amd64__binary
+[rosbag2-eloquent-x86-badge]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2__ubuntu_bionic_amd64__binary/badge/icon
+[rosbag2-eloquent-arm64]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary
+[rosbag2-eloquent-arm64-badge]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2__ubuntu_bionic_arm64__binary/badge/icon
+[rosbag2-eloquent-armhf]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary
+[rosbag2-eloquent-armhf-badge]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2__ubuntu_bionic_armhf__binary/badge/icon
+
+[rosbag2-bagv2-dashing-dev]: http://build.ros2.org/view/Ddev/job/Ddev__rosbag2_bag_v2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-bagv2-dashing-dev-badge]: http://build.ros2.org/view/Ddev/job/Ddev__rosbag2_bag_v2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-bagv2-dashing-src]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source
+[rosbag2-bagv2-dashing-src-badge]: http://build.ros2.org/view/Dsrc_uB/job/Dsrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source
+[rosbag2-bagv2-dashing-x86]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary
+[rosbag2-bagv2-dashing-x86-badge]: http://build.ros2.org/view/Dbin_uB64/job/Dbin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary/badge/icon
+[rosbag2-bagv2-dashing-arm64]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary
+[rosbag2-bagv2-dashing-arm64-badge]: http://build.ros2.org/view/Dbin_ubv8_uBv8/job/Dbin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary/badge/icon
+[rosbag2-bagv2-dashing-armhf]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary
+[rosbag2-bagv2-dashing-armhf-badge]: http://build.ros2.org/view/Dbin_ubhf_uBhf/job/Dbin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary/badge/icon
+
+[rosbag2-bagv2-eloquent-dev]: http://build.ros2.org/view/Edev/job/Edev__rosbag2_bag_v2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-bagv2-eloquent-dev-badge]: http://build.ros2.org/view/Edev/job/Edev__rosbag2_bag_v2__ubuntu_bionic_amd64/badge/icon
+[rosbag2-bagv2-eloquent-src]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source
+[rosbag2-bagv2-eloquent-src-badge]: http://build.ros2.org/view/Esrc_uB/job/Esrc_uB__rosbag2_bag_v2_plugins__ubuntu_bionic__source
+[rosbag2-bagv2-eloquent-x86]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary
+[rosbag2-bagv2-eloquent-x86-badge]: http://build.ros2.org/view/Ebin_uB64/job/Ebin_uB64__rosbag2_bag_v2_plugins__ubuntu_bionic_amd64__binary/badge/icon
+[rosbag2-bagv2-eloquent-arm64]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary
+[rosbag2-bagv2-eloquent-arm64-badge]: http://build.ros2.org/view/Ebin_ubv8_uBv8/job/Ebin_ubv8_uBv8__rosbag2_bag_v2_plugins__ubuntu_bionic_arm64__binary/badge/icon
+[rosbag2-bagv2-eloquent-armhf]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary
+[rosbag2-bagv2-eloquent-armhf-badge]: http://build.ros2.org/view/Ebin_ubhf_uBhf/job/Ebin_ubhf_uBhf__rosbag2_bag_v2_plugins__ubuntu_bionic_armhf__binary/badge/icon

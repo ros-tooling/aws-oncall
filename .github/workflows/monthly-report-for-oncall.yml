@@ -57,8 +57,8 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: html-report
-        path: report.html
+        path: monthly-report.html
     - uses: actions/upload-artifact@master
       with:
         name: markdown-report
-        path: report.md
+        path: monthly-report.md

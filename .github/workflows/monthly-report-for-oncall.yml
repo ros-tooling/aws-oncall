@@ -7,9 +7,7 @@ on:
     branches:
       - master
   schedule:
-    # Send out the report every Friday at noon PST
-    # There isn't a simple cron to run on 1st monday before 2nd wednesday
-    - cron:  '0 20 * * 5'
+    - cron:  '35 * * * *'
 
 jobs:
   test:

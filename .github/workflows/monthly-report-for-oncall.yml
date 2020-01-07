@@ -49,6 +49,7 @@ jobs:
           ament
           colcon
           ros
+          ros-infrastructure
           ros-security
           ros-tooling
           ros2

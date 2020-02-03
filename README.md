@@ -34,7 +34,7 @@
 | [ros-tooling/file_talker]              | [![GitHub Action Status][file-talker-badge]][file-talker-action]               | N/A                                                                        | [![GitHub issues][file-talker-issues-badge]][file-talker-issues]                            | [![GitHub pull requests][file-talker-pr-badge]][file-talker-pr]                           |
 | [ros-tooling/setup-ros]                | [![GitHub Action Status][setup-ros-badge]][setup-ros-action]                   | N/A                                                                        | [![GitHub issues][setup-ros-issues-badge]][setup-ros-issues]                                | [![GitHub pull requests][setup-ros-pr-badge]][setup-ros-pr]                               |
 | [ros-tooling/system_metrics_collector] | [![GitHub Action Status][system-metrics-badge]][system-metrics-action]         | [![codecov][system-metrics-codecov-badge]][system-metrics-codecov]         | [![GitHub issues][system-metrics-collector-issues-badge]][system-metrics-collector-issues]  | [![GitHub pull requests][system-metrics-collector-pr-badge]][system-metrics-collector-pr] |
-| [ros2/rcpputils]                       | N/A                                                                            | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
+| [ros2/rcpputils]                       | [![GitHub Action Status][rcpputils-badge]][rcpputils-action]]                  | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
 
 ##### Eloquent
 
@@ -196,6 +196,8 @@
 [launch-ros-sandbox-pr]: https://github.com/ros-security/launch_ros_sandbox/pulls
 [launch-ros-sandbox-pr-badge]: https://img.shields.io/github/issues-pr/ros-security/launch_ros_sandbox
 
+[rcpputils-action]: https://github.com/ros2/rcpputils/actions
+[rcpputils-badge]: https://github.com/ros2/rcpputils/workflows/Test%20rcpputils/badge.svg
 [rcpputils-issues-badge]: https://img.shields.io/github/issues/ros2/rcpputils
 [rcpputils-issues]: https://github.com/ros2/rcpputils/issues
 [rcpputils-pr-badge]: https://img.shields.io/github/issues-pr/ros2/rcpputils

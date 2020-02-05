@@ -8,7 +8,7 @@ on:
       - master
   schedule:
     # Send out the report every Sunday at noon PST
-    - cron:  '0 20 * * SUN'
+    - cron:  '0 20 * * 0'
 
 jobs:
   test:

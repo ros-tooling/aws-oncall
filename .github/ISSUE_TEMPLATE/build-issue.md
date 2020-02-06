@@ -22,6 +22,6 @@ One of the builds we care about is not good!
 ## Required Information
 
 * **Job Home**: <e.g. https://ci.ros2.org/view/nightly/job/nightly_win_deb/, e.g. not a numbered build>
-* **First Failing Build** (or oldest one with this issue that you can find: 
+* **First Failing Build** (or oldest/old-ish one with this issue that you can find, best effort): 
 * **Latest Failing Build** (try to keep this up to date): 
 * **External tracking ticket**: <Create a ticket on the relevant repository to report the issue to the maintainers. If that's not appropriate for this issue explain why here>

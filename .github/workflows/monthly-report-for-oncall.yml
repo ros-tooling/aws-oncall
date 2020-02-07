@@ -54,6 +54,7 @@ jobs:
           ros2
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         since-n-days-ago: 30
+        file-name: monthly-report
     - uses: actions/upload-artifact@master
       with:
         name: html-report

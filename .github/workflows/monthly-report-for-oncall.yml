@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v1
-    - uses: ros-security/github-contribution-report-generator@0.0.4
+    - uses: ros-security/github-contribution-report-generator@0.0.5
       with:
         authors-filter: |
           AAlon

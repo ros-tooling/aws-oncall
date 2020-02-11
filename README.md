@@ -98,7 +98,7 @@
 [nightly-linux-asan-badge]: https://ci.ros2.org/view/nightly/job/nightly_linux_address_sanitizer/badge/icon
 [nightly-linux-tsan]: https://ci.ros2.org/view/nightly/job/nightly_linux_thread_sanitizer
 [nightly-linux-tsan-badge]: https://ci.ros2.org/view/nightly/job/nightly_linux_thread_sanitizer/badge/icon
-[nightly-linux-clang]: https://ci.ros2.org/view/nightly/job/nightly_linux_clang_libcxx/badge/icon
+[nightly-linux-clang]: https://ci.ros2.org/view/nightly/job/nightly_linux_clang_libcxx
 [nightly-linux-clang-badge]: https://ci.ros2.org/view/nightly/job/nightly_linux_clang_libcxx/badge/icon
 
 [nightly-linux-debug]: https://ci.ros2.org/view/nightly/job/nightly_linux_debug

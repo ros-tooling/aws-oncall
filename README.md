@@ -30,7 +30,7 @@
 | [ros-security/launch_ros_sandbox]      | [![GitHub Action Status][launch-ros-sandbox-badge]][launch-ros-sandbox-action] | [![codecov][launch-ros-sandbox-codecov-badge]][launch-ros-sandbox-codecov] | [![GitHub issues][launch-ros-sandbox-issues-badge]][launch-ros-sandbox-issues]              | [![GitHub pull requests][launch-ros-sandbox-pr-badge]][launch-ros-sandbox-pr]             |
 | [ros-tooling/action-cloudwatch-metrics] | [![GitHub Action Status][action-cloudwatch-metrics-badge]][action-cloudwatch-metrics-action] | N/A                                                                        | [![GitHub issues][action-cloudwatch-metrics-issues-badge]][action-cloudwatch-metrics-issues]| [![GitHub pull requests][action-cloudwatch-metrics-pr-badge]][action-cloudwatch-metrics-pr] |
 | [ros-tooling/action-ros-ci]           | [![GitHub Action Status][action-ros-ci-badge]][action-ros-ci-action]         | N/A                                                                        | [![GitHub issues][action-ros-ci-issues-badge]][action-ros-ci-issues]                      | [![GitHub pull requests][action-ros-ci-pr-badge]][action-ros-ci-pr]                     |
-| [ros-tooling/action-ros2-lint]         | [![GitHub Action Status][action-ros2-lint-badge]][action-ros2-lint-action]     | N/A                                                                        | [![GitHub issues][action-ros2-lint-issues-badge]][action-ros2-lint-issues]                  | [![GitHub pull requests][action-ros2-lint-pr-badge]][action-ros2-lint-pr]                 |
+| [ros-tooling/action-ros-lint]         | [![GitHub Action Status][action-ros-lint-badge]][action-ros-lint-action]     | N/A                                                                        | [![GitHub issues][action-ros-lint-issues-badge]][action-ros-lint-issues]                  | [![GitHub pull requests][action-ros-lint-pr-badge]][action-ros-lint-pr]                 |
 | [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]           | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
 | [ros-tooling/file_talker]              | [![GitHub Action Status][file-talker-badge]][file-talker-action]               | N/A                                                                        | [![GitHub issues][file-talker-issues-badge]][file-talker-issues]                            | [![GitHub pull requests][file-talker-pr-badge]][file-talker-pr]                           |
 | [ros-tooling/setup-ros]                | [![GitHub Action Status][setup-ros-badge]][setup-ros-action]                   | N/A                                                                        | [![GitHub issues][setup-ros-issues-badge]][setup-ros-issues]                                | [![GitHub pull requests][setup-ros-pr-badge]][setup-ros-pr]                               |
@@ -87,7 +87,7 @@
 [ros-security/launch_ros_sandbox]: https://github.com/ros-security/launch_ros_sandbox
 [ros-tooling/action-cloudwatch-metrics]: https://github.com/ros-tooling/action-cloudwatch-metrics
 [ros-tooling/action-ros-ci]: https://github.com/ros-tooling/action-ros-ci
-[ros-tooling/action-ros2-lint]: https://github.com/ros-tooling/action-ros2-lint
+[ros-tooling/action-ros-lint]: https://github.com/ros-tooling/action-ros-lint
 [ros-tooling/cross_compile]: https://github.com/ros-tooling/cross_compile
 [ros-tooling/file_talker]: https://github.com/ros-tooling/file_talker
 [ros-tooling/setup-ros]: https://github.com/ros-tooling/setup-ros
@@ -146,18 +146,18 @@
 [action-cloudwatch-metrics-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-cloudwatch-metrics
 
 [action-ros-ci-action]: https://github.com/ros-tooling/action-ros-ci/actions
-[action-ros-ci-badge]: https://github.com/ros-tooling/action-ros-ci/workflows/Test%20action-ros2-ci/badge.svg
+[action-ros-ci-badge]: https://github.com/ros-tooling/action-ros-ci/workflows/Test%20action-ros-ci/badge.svg
 [action-ros-ci-issues]: https://github.com/ros-tooling/action-ros-ci/issues
 [action-ros-ci-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros-ci
 [action-ros-ci-pr]: https://github.com/ros-tooling/action-ros-ci/pulls
 [action-ros-ci-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros-ci
 
-[action-ros2-lint-action]: https://github.com/ros-tooling/action-ros2-lint/actions
-[action-ros2-lint-badge]: https://github.com/ros-tooling/action-ros2-lint/workflows/Test%20action-ros2-lint/badge.svg
-[action-ros2-lint-issues]: https://github.com/ros-tooling/action-ros2-lint/issues
-[action-ros2-lint-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros2-lint
-[action-ros2-lint-pr]: https://github.com/ros-tooling/action-ros2-lint/pulls
-[action-ros2-lint-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros2-lint
+[action-ros-lint-action]: https://github.com/ros-tooling/action-ros-lint/actions
+[action-ros-lint-badge]: https://github.com/ros-tooling/action-ros-lint/workflows/Test%20action-ros-lint/badge.svg
+[action-ros-lint-issues]: https://github.com/ros-tooling/action-ros-lint/issues
+[action-ros-lint-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros-lint
+[action-ros-lint-pr]: https://github.com/ros-tooling/action-ros-lint/pulls
+[action-ros-lint-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros-lint
 
 [colcon-bundle-travis]: https://travis-ci.org/colcon/colcon-bundle
 [colcon-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-bundle.svg?branch=master

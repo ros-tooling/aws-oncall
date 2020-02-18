@@ -28,6 +28,7 @@
 | [colcon/colcon-ros-bundle]             | [![Build Status][colcon-ros-bundle-travis-badge]][colcon-ros-bundle-travis]    | N/A                                                                        | [![GitHub issues][colcon-ros-bundle-issues-badge]][colcon-ros-bundle-issues]                | [![GitHub pull requests][colcon-ros-bundle-pr-badge]][colcon-ros-bundle-pr]               |
 | [colcon/colcon-sanitizer-reports] | [![Build Status][colcon-sanitizer-reports-azure-badge]][colcon-sanitizer-reports-azure] | N/A | [![GitHub issues][colcon-sanitizer-reports-issues-badge]][colcon-sanitizer-reports-issues] | [![GitHub pull requests][colcon-sanitizer-reports-pr-badge]][colcon-sanitizer-reports-pr] |
 | [ros-security/launch_ros_sandbox]      | [![GitHub Action Status][launch-ros-sandbox-badge]][launch-ros-sandbox-action] | [![codecov][launch-ros-sandbox-codecov-badge]][launch-ros-sandbox-codecov] | [![GitHub issues][launch-ros-sandbox-issues-badge]][launch-ros-sandbox-issues]              | [![GitHub pull requests][launch-ros-sandbox-pr-badge]][launch-ros-sandbox-pr]             |
+| [ros-tooling/action-cloudwatch-metrics] | [![GitHub Action Status][action-cloudwatch-metrics-badge]][action-cloudwatch-metrics-action] | N/A                                                                        | [![GitHub issues][action-cloudwatch-metrics-issues-badge]][action-cloudwatch-metrics-issues]| [![GitHub pull requests][action-cloudwatch-metrics-pr-badge]][action-cloudwatch-metrics-pr] |
 | [ros-tooling/action-ros-ci]           | [![GitHub Action Status][action-ros-ci-badge]][action-ros-ci-action]         | N/A                                                                        | [![GitHub issues][action-ros-ci-issues-badge]][action-ros-ci-issues]                      | [![GitHub pull requests][action-ros-ci-pr-badge]][action-ros-ci-pr]                     |
 | [ros-tooling/action-ros2-lint]         | [![GitHub Action Status][action-ros2-lint-badge]][action-ros2-lint-action]     | N/A                                                                        | [![GitHub issues][action-ros2-lint-issues-badge]][action-ros2-lint-issues]                  | [![GitHub pull requests][action-ros2-lint-pr-badge]][action-ros2-lint-pr]                 |
 | [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]           | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
@@ -84,6 +85,7 @@
 [colcon/colcon-ros-bundle]: https://github.com/colcon/colcon-ros-bundle
 [colcon/colcon-sanitizer-reports]: https://github.com/colcon/colcon-sanitizer-reports
 [ros-security/launch_ros_sandbox]: https://github.com/ros-security/launch_ros_sandbox
+[ros-tooling/action-cloudwatch-metrics]: https://github.com/ros-tooling/action-cloudwatch-metrics
 [ros-tooling/action-ros-ci]: https://github.com/ros-tooling/action-ros-ci
 [ros-tooling/action-ros2-lint]: https://github.com/ros-tooling/action-ros2-lint
 [ros-tooling/cross_compile]: https://github.com/ros-tooling/cross_compile
@@ -135,6 +137,13 @@
 [nightly-win-release-badge]: https://ci.ros2.org/view/nightly/job/nightly_win_rel/badge/icon
 [nightly-win-packaging]: https://ci.ros2.org/view/packaging/job/packaging_windows
 [nightly-win-packaging-badge]: https://ci.ros2.org/view/packaging/job/packaging_windows/badge/icon
+
+[action-cloudwatch-metrics-action]: https://github.com/ros-tooling/action-cloudwatch-metrics/actions
+[action-cloudwatch-metrics-badge]: https://github.com/ros-tooling/action-cloudwatch-metrics/workflows/Test%20action-cloudwatch-metrics/badge.svg
+[action-cloudwatch-metrics-issues]: https://github.com/ros-tooling/action-cloudwatch-metrics/issues
+[action-cloudwatch-metrics-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-cloudwatch-metrics
+[action-cloudwatch-metrics-pr]: https://github.com/ros-tooling/action-cloudwatch-metrics/pulls
+[action-cloudwatch-metrics-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-cloudwatch-metrics
 
 [action-ros-ci-action]: https://github.com/ros-tooling/action-ros-ci/actions
 [action-ros-ci-badge]: https://github.com/ros-tooling/action-ros-ci/workflows/Test%20action-ros2-ci/badge.svg

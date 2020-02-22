@@ -47,11 +47,11 @@ From build.ros2.org
 | [ros-tooling/action-cloudwatch-metrics] | [![GitHub Action Status][action-cloudwatch-metrics-badge]][action-cloudwatch-metrics-action] | N/A | N/A                                                                        | [![GitHub issues][action-cloudwatch-metrics-issues-badge]][action-cloudwatch-metrics-issues]| [![GitHub pull requests][action-cloudwatch-metrics-pr-badge]][action-cloudwatch-metrics-pr] |
 | [ros-tooling/action-ros-ci]            | [![GitHub Action Status][action-ros-ci-badge]][action-ros-ci-action]         | N/A | N/A                                                                        | [![GitHub issues][action-ros-ci-issues-badge]][action-ros-ci-issues]                      | [![GitHub pull requests][action-ros-ci-pr-badge]][action-ros-ci-pr]                     |
 | [ros-tooling/action-ros-lint]          | [![GitHub Action Status][action-ros-lint-badge]][action-ros-lint-action]     | N/A | N/A                                                                        | [![GitHub issues][action-ros-lint-issues-badge]][action-ros-lint-issues]                  | [![GitHub pull requests][action-ros-lint-pr-badge]][action-ros-lint-pr]                 |
-| [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]         |  [![End-to-end Testing (Nightly)][cross-compile-nightly-badge]][cross-compile-nightly-action] | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
+| [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]   [![GitHub Action Status][cross-compile-shellcheck-badge]][cross-compile-shellcheck]         |  [![E2E (Nightly)][cross-compile-nightly-badge]][cross-compile-nightly-action]   [![PIP E2E (Nightly)][cross-compile-nightly-pip-badge]][cross-compile-nightly-pip-action] | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
 | [ros-tooling/file_talker]              | [![GitHub Action Status][file-talker-badge]][file-talker-action]              | N/A | N/A                                                                        | [![GitHub issues][file-talker-issues-badge]][file-talker-issues]                            | [![GitHub pull requests][file-talker-pr-badge]][file-talker-pr]                           |
 | [ros-tooling/setup-ros]                | [![GitHub Action Status][setup-ros-badge]][setup-ros-action]                 | N/A | N/A                                                                        | [![GitHub issues][setup-ros-issues-badge]][setup-ros-issues]                                | [![GitHub pull requests][setup-ros-pr-badge]][setup-ros-pr]                               |
 | [ros-tooling/system_metrics_collector] | [![GitHub Action Status][system-metrics-badge]][system-metrics-action]        | [![End-to-end Testing (Nightly)][system-metrics-collector-nightly-badge]][system-metrics-collector-nightly-action]  | [![codecov][system-metrics-codecov-badge]][system-metrics-codecov]         | [![GitHub issues][system-metrics-collector-issues-badge]][system-metrics-collector-issues]  | [![GitHub pull requests][system-metrics-collector-pr-badge]][system-metrics-collector-pr] |
-| [ros2/rcpputils]                       | [![GitHub Action Status][rcpputils-badge]][rcpputils-action ]                 | N/A | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
+| [ros2/rcpputils]                       | [![GitHub Action Status][rcpputils-badge]][rcpputils-action]                 | N/A | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
 
 ##### Eloquent
 
@@ -184,6 +184,8 @@ From build.ros2.org
 
 [cross-compile-action]: https://github.com/ros-tooling/cross_compile/actions
 [cross-compile-badge]: https://github.com/ros-tooling/cross_compile/workflows/Test%20cross_compile/badge.svg
+[cross-compile-shellcheck]: https://github.com/ros-tooling/cross_compile/actions?query=workflow%3A%22Run+shellcheck+linter%22
+[cross-compile-shellcheck-badge]: https://github.com/ros-tooling/cross_compile/workflows/Run%20shellcheck%20linter/badge.svg
 [cross-compile-issues]: https://github.com/ros-tooling/cross_compile/issues
 [cross-compile-issues-badge]: https://img.shields.io/github/issues/ros-tooling/cross_compile
 [cross-compile-pr]: https://github.com/ros-tooling/cross_compile/pulls
@@ -192,6 +194,8 @@ From build.ros2.org
 [cross-compile-codecov-badge]: https://codecov.io/gh/ros-tooling/cross_compile/branch/master/graph/badge.svg
 [cross-compile-nightly-badge]: https://github.com/ros-tooling/cross_compile/workflows/End-to-end%20Testing%20(Nightly)/badge.svg
 [cross-compile-nightly-action]: https://github.com/ros-tooling/cross_compile/actions?query=workflow%3A%22End-to-end+Testing+%28Nightly%29%22
+[cross-compile-nightly-pip-badge]: https://github.com/ros-tooling/cross_compile/workflows/End-to-end%20testing%20for%20ros-cross-compile%20using%20PIP%20(Nightly%20Canary)/badge.svg
+[cross-compile-nightly-pip-action]: https://github.com/ros-tooling/cross_compile/actions?query=workflow%3A%22End-to-end+testing+for+ros-cross-compile+using+PIP+%28Nightly+Canary%29%22
 
 [colcon-ros-bundle-travis]: https://travis-ci.org/colcon/colcon-ros-bundle
 [colcon-ros-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-ros-bundle.svg?branch=master

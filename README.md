@@ -46,6 +46,7 @@ From build.ros2.org
 | [ros-security/launch_ros_sandbox]      | [![GitHub Action Status][launch-ros-sandbox-badge]][launch-ros-sandbox-action] | N/A | [![codecov][launch-ros-sandbox-codecov-badge]][launch-ros-sandbox-codecov] | [![GitHub issues][launch-ros-sandbox-issues-badge]][launch-ros-sandbox-issues]              | [![GitHub pull requests][launch-ros-sandbox-pr-badge]][launch-ros-sandbox-pr]             |
 | [ros-tooling/action-cloudwatch-metrics] | [![GitHub Action Status][action-cloudwatch-metrics-badge]][action-cloudwatch-metrics-action] | N/A | N/A                                                                        | [![GitHub issues][action-cloudwatch-metrics-issues-badge]][action-cloudwatch-metrics-issues]| [![GitHub pull requests][action-cloudwatch-metrics-pr-badge]][action-cloudwatch-metrics-pr] |
 | [ros-tooling/action-ros-ci]            | [![GitHub Action Status][action-ros-ci-badge]][action-ros-ci-action]         | N/A | N/A                                                                        | [![GitHub issues][action-ros-ci-issues-badge]][action-ros-ci-issues]                      | [![GitHub pull requests][action-ros-ci-pr-badge]][action-ros-ci-pr]                     |
+| [ros-tooling/action-ros-ci-template]    | [![GitHub Action Status][action-ros-ci-template-badge]][action-ros-ci-template-action]         | N/A | N/A                                                     | [![GitHub issues][action-ros-ci-template-issues-badge]][action-ros-ci-template-issues]     | [![GitHub pull requests][action-ros-ci-template-pr-badge]][action-ros-ci-template-pr]                     |
 | [ros-tooling/action-ros-lint]          | [![GitHub Action Status][action-ros-lint-badge]][action-ros-lint-action]     | N/A | N/A                                                                        | [![GitHub issues][action-ros-lint-issues-badge]][action-ros-lint-issues]                  | [![GitHub pull requests][action-ros-lint-pr-badge]][action-ros-lint-pr]                 |
 | [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]   [![GitHub Action Status][cross-compile-shellcheck-badge]][cross-compile-shellcheck]         |  [![E2E (Nightly)][cross-compile-nightly-badge]][cross-compile-nightly-action]   [![PIP E2E (Nightly)][cross-compile-nightly-pip-badge]][cross-compile-nightly-pip-action] | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
 | [ros-tooling/file_talker]              | [![GitHub Action Status][file-talker-badge]][file-talker-action]              | N/A | N/A                                                                        | [![GitHub issues][file-talker-issues-badge]][file-talker-issues]                            | [![GitHub pull requests][file-talker-pr-badge]][file-talker-pr]                           |
@@ -103,6 +104,7 @@ From build.ros2.org
 [ros-security/launch_ros_sandbox]: https://github.com/ros-security/launch_ros_sandbox
 [ros-tooling/action-cloudwatch-metrics]: https://github.com/ros-tooling/action-cloudwatch-metrics
 [ros-tooling/action-ros-ci]: https://github.com/ros-tooling/action-ros-ci
+[ros-tooling/action-ros-ci-template]: https://github.com/ros-tooling/action-ros-ci-template
 [ros-tooling/action-ros-lint]: https://github.com/ros-tooling/action-ros-lint
 [ros-tooling/cross_compile]: https://github.com/ros-tooling/cross_compile
 [ros-tooling/file_talker]: https://github.com/ros-tooling/file_talker
@@ -167,6 +169,13 @@ From build.ros2.org
 [action-ros-ci-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros-ci
 [action-ros-ci-pr]: https://github.com/ros-tooling/action-ros-ci/pulls
 [action-ros-ci-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros-ci
+
+[action-ros-ci-template-action]: https://github.com/ros-tooling/action-ros-ci-template/actions
+[action-ros-ci-template-badge]: https://github.com/ros-tooling/action-ros-ci-template/workflows/Lint%20ROS2%20package/badge.svg
+[action-ros-ci-template-issues]: https://github.com/ros-tooling/action-ros-ci-template/issues
+[action-ros-ci-template-issues-badge]: https://img.shields.io/github/issues/ros-tooling/action-ros-ci-template
+[action-ros-ci-template-pr]: https://github.com/ros-tooling/action-ros-ci-template/pulls
+[action-ros-ci-template-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros-ci-template
 
 [action-ros-lint-action]: https://github.com/ros-tooling/action-ros-lint/actions
 [action-ros-lint-badge]: https://github.com/ros-tooling/action-ros-lint/workflows/Test%20action-ros-lint/badge.svg

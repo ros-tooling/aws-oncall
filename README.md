@@ -50,6 +50,7 @@ From build.ros2.org
 | [ros-tooling/action-ros-lint]          | [![GitHub Action Status][action-ros-lint-badge]][action-ros-lint-action]     | N/A | [![codecov][action-ros-lint-codecov-badge]][action-ros-lint-codecov]                                                                        | [![GitHub issues][action-ros-lint-issues-badge]][action-ros-lint-issues]                  | [![GitHub pull requests][action-ros-lint-pr-badge]][action-ros-lint-pr]                 |
 | [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]   [![GitHub Action Status][cross-compile-shellcheck-badge]][cross-compile-shellcheck]         |  [![E2E (Nightly)][cross-compile-nightly-badge]][cross-compile-nightly-action]   [![PIP E2E (Nightly)][cross-compile-nightly-pip-badge]][cross-compile-nightly-pip-action] | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
 | [ros-tooling/file_talker]              | [![GitHub Action Status][file-talker-badge]][file-talker-action]              | N/A | N/A                                                                        | [![GitHub issues][file-talker-issues-badge]][file-talker-issues]                            | [![GitHub pull requests][file-talker-pr-badge]][file-talker-pr]                           |
+| [ros-tooling/libstatistics_collector]              | [![GitHub Action Status][libstatistics-collector-badge]][libstatistics-collector-action]              | N/A | [![codecov][libstatistics-collector-codecov-badge]][libstatistics-collector-codecov]                                                                        | [![GitHub issues][libstatistics-collector-issues-badge]][libstatistics-collector-issues]                            | [![GitHub pull requests][libstatistics-collector-pr-badge]][libstatistics-collector-pr]                           |
 | [ros-tooling/setup-ros]                | [![GitHub Action Status][setup-ros-badge]][setup-ros-action]                 | N/A | [![codecov][setup-ros-codecov-badge]][setup-ros-codecov]                                                                                             | [![GitHub issues][setup-ros-issues-badge]][setup-ros-issues]                                | [![GitHub pull requests][setup-ros-pr-badge]][setup-ros-pr]                               |
 | [ros-tooling/system_metrics_collector] | [![GitHub Action Status][system-metrics-badge]][system-metrics-action]        | [![End-to-end Testing (Nightly)][system-metrics-collector-nightly-badge]][system-metrics-collector-nightly-action]  | [![codecov][system-metrics-codecov-badge]][system-metrics-codecov]         | [![GitHub issues][system-metrics-collector-issues-badge]][system-metrics-collector-issues]  | [![GitHub pull requests][system-metrics-collector-pr-badge]][system-metrics-collector-pr] |
 | [ros2/rcpputils]                       | [![GitHub Action Status][rcpputils-badge]][rcpputils-action]                 | N/A | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
@@ -109,6 +110,7 @@ From build.ros2.org
 [ros-tooling/action-ros-lint]: https://github.com/ros-tooling/action-ros-lint
 [ros-tooling/cross_compile]: https://github.com/ros-tooling/cross_compile
 [ros-tooling/file_talker]: https://github.com/ros-tooling/file_talker
+[ros-tooling/libstatistics_collector]: https://github.com/ros-tooling/libstatistics_collector
 [ros-tooling/setup-ros]: https://github.com/ros-tooling/setup-ros
 [ros-tooling/system_metrics_collector]: https://github.com/ros-tooling/system_metrics_collector
 [ros2/rcpputils]: https://github.com/ros2/rcpputils
@@ -231,6 +233,15 @@ From build.ros2.org
 [file-talker-issues-badge]: https://img.shields.io/github/issues/ros-tooling/file_talker
 [file-talker-pr]: https://github.com/ros-tooling/file_talker/pulls
 [file-talker-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/file_talker
+
+[libstatistics-collector-action]: https://github.com/ros-tooling/libstatistics_collector/actions
+[libstatistics-collector-badge]: https://github.com/ros-tooling/libstatistics_collector/workflows/Test%20libstatistics_collector/badge.svg
+[libstatistics-collector-codecov]: https://codecov.io/gh/ros-tooling/libstatistics_collector
+[libstatistics-collector-codecov-badge]: https://codecov.io/gh/ros-tooling/libstatistics_collector/branch/master/graph/badge.svg
+[libstatistics-collector-issues]: https://github.com/ros-tooling/libstatistics_collector/issues
+[libstatistics-collector-issues-badge]: https://img.shields.io/github/issues/ros-tooling/libstatistics_collector
+[libstatistics-collector-pr]: https://github.com/ros-tooling/libstatistics_collector/pulls
+[libstatistics-collector-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/libstatistics_collector
 
 [launch-ros-sandbox-action]: https://github.com/ros-security/launch_ros_sandbox/actions
 [launch-ros-sandbox-badge]: https://github.com/ros-security/launch_ros_sandbox/workflows/Test%20launch_ros_sandbox/badge.svg

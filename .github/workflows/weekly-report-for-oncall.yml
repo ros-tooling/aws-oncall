@@ -12,7 +12,9 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:bionic
     steps:
     - uses: actions/checkout@v1
     - uses: ros-security/github-contribution-report-generator@0.0.6

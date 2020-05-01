@@ -28,7 +28,6 @@ jobs:
         - eProsima/Fast-RTPS
         - eProsima/foonathan_memory_vendor
         - eclipse-cyclonedds/cyclonedds
-        - micro-ROS/ros_tracing/ros2_tracing
         - osrf/osrf_pycommon
         - osrf/osrf_testing_tools_cpp
         - ros-perception/laser_geometry
@@ -127,37 +126,91 @@ jobs:
 
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: open_issues_count
         metric-value: ${{ steps.repo_activity.outputs.open_issues_count }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: archived
         metric-value: ${{ steps.repo_activity.outputs.archived }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: disabled
         metric-value: ${{ steps.repo_activity.outputs.disabled }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: forks_count
         metric-value: ${{ steps.repo_activity.outputs.forks_count }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: network_count
         metric-value: ${{ steps.repo_activity.outputs.network_count }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: open_issues_count
         metric-value: ${{ steps.repo_activity.outputs.open_issues_count }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: stargazers_count
         metric-value: ${{ steps.repo_activity.outputs.stargazers_count }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: subscribers_count
         metric-value: ${{ steps.repo_activity.outputs.subscribers_count }}
     - uses: ros-tooling/action-cloudwatch-metrics@0.0.4
       with:
+        metric-dimensions: >-
+          [
+            { "Name": "github.event_name", "Value": "${{ github.event_name }}" },
+            { "Name": "github.ref", "Value": "${{ github.ref }}" },
+            { "Name": "github.repository", "Value": "${{ matrix.repo }}" }
+          ]
         metric-name: watchers_count
         metric-value: ${{ steps.repo_activity.outputs.watchers_count }}

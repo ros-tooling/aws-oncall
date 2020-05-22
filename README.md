@@ -40,8 +40,8 @@ From build.ros2.org
 
 | Repository Name                        | Latest                                                                         | Nightly | Coverage                                                                   | Issues                                                                           | PRs                                                                                          |
 |----------------------------------------|--------------------------------------------------------------------------------|---|----------------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [colcon/colcon-bundle]                 | [![Build Status][colcon-bundle-travis-badge]][colcon-bundle-travis]            | N/A | N/A                                                                        | [![GitHub issues][colcon-bundle-issues-badge]][colcon-bundle-issues]                        | [![GitHub pull requests][colcon-bundle-pr-badge]][colcon-bundle-pr]                       |
-| [colcon/colcon-ros-bundle]             | [![Build Status][colcon-ros-bundle-travis-badge]][colcon-ros-bundle-travis]    | N/A | N/A                                                                        | [![GitHub issues][colcon-ros-bundle-issues-badge]][colcon-ros-bundle-issues]                | [![GitHub pull requests][colcon-ros-bundle-pr-badge]][colcon-ros-bundle-pr]               |
+| [colcon/colcon-bundle]                 | [![Build Status][colcon-bundle-action-badge]][colcon-bundle-action]            | N/A | N/A                                                                        | [![GitHub issues][colcon-bundle-issues-badge]][colcon-bundle-issues]                        | [![GitHub pull requests][colcon-bundle-pr-badge]][colcon-bundle-pr]                       |
+| [colcon/colcon-ros-bundle]             | [![Build Status][colcon-ros-bundle-action-badge]][colcon-ros-bundle-action]    | N/A | N/A                                                                        | [![GitHub issues][colcon-ros-bundle-issues-badge]][colcon-ros-bundle-issues]                | [![GitHub pull requests][colcon-ros-bundle-pr-badge]][colcon-ros-bundle-pr]               |
 | [colcon/colcon-sanitizer-reports] | [![Build Status][colcon-sanitizer-reports-azure-badge]][colcon-sanitizer-reports-azure] | N/A | N/A | [![GitHub issues][colcon-sanitizer-reports-issues-badge]][colcon-sanitizer-reports-issues] | [![GitHub pull requests][colcon-sanitizer-reports-pr-badge]][colcon-sanitizer-reports-pr] |
 | [ros-security/launch_ros_sandbox]      | [![GitHub Action Status][launch-ros-sandbox-badge]][launch-ros-sandbox-action] | N/A | [![codecov][launch-ros-sandbox-codecov-badge]][launch-ros-sandbox-codecov] | [![GitHub issues][launch-ros-sandbox-issues-badge]][launch-ros-sandbox-issues]              | [![GitHub pull requests][launch-ros-sandbox-pr-badge]][launch-ros-sandbox-pr]             |
 | [ros-tooling/action-cloudwatch-metrics] | [![GitHub Action Status][action-cloudwatch-metrics-badge]][action-cloudwatch-metrics-action] | N/A | N/A                                                                        | [![GitHub issues][action-cloudwatch-metrics-issues-badge]][action-cloudwatch-metrics-issues]| [![GitHub pull requests][action-cloudwatch-metrics-pr-badge]][action-cloudwatch-metrics-pr] |
@@ -191,8 +191,8 @@ From build.ros2.org
 [action-ros-lint-pr]: https://github.com/ros-tooling/action-ros-lint/pulls
 [action-ros-lint-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/action-ros-lint
 
-[colcon-bundle-travis]: https://travis-ci.org/colcon/colcon-bundle
-[colcon-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-bundle.svg?branch=master
+[colcon-bundle-action]: https://github.com/colcon/colcon-bundle/actions
+[colcon-bundle-action-badge]: https://github.com/colcon/colcon-bundle/workflows/Testing%20workflows%20for%20colcon-bundle/badge.svg
 [colcon-bundle-issues]: https://github.com/colcon/colcon-bundle/issues
 [colcon-bundle-issues-badge]: https://img.shields.io/github/issues/colcon/colcon-bundle
 [colcon-bundle-pr]: https://github.com/colcon/colcon-bundle/pulls
@@ -213,8 +213,8 @@ From build.ros2.org
 [cross-compile-nightly-pip-badge]: https://github.com/ros-tooling/cross_compile/workflows/End-to-end%20testing%20for%20ros-cross-compile%20using%20PIP%20(Nightly%20Canary)/badge.svg
 [cross-compile-nightly-pip-action]: https://github.com/ros-tooling/cross_compile/actions?query=workflow%3A%22End-to-end+testing+for+ros-cross-compile+using+PIP+%28Nightly+Canary%29%22
 
-[colcon-ros-bundle-travis]: https://travis-ci.org/colcon/colcon-ros-bundle
-[colcon-ros-bundle-travis-badge]: https://travis-ci.org/colcon/colcon-ros-bundle.svg?branch=master
+[colcon-ros-bundle-action]: https://github.com/colcon/colcon-ros-bundle/actions
+[colcon-ros-bundle-action-badge]: https://github.com/colcon/colcon-ros-bundle/workflows/Test%20colcon-ros-bundle/badge.svg
 [colcon-ros-bundle-issues]: https://github.com/colcon/colcon-ros-bundle/issues
 [colcon-ros-bundle-issues-badge]: https://img.shields.io/github/issues/colcon/colcon-ros-bundle
 [colcon-ros-bundle-pr]: https://github.com/colcon/colcon-ros-bundle/pulls

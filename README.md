@@ -27,6 +27,7 @@
 | [ros-tooling/cross_compile]            | [![GitHub Action Status][cross-compile-badge]][cross-compile-action]   [![GitHub Action Status][cross-compile-shellcheck-badge]][cross-compile-shellcheck]         |  [![E2E (Nightly)][cross-compile-nightly-badge]][cross-compile-nightly-action]   [![PIP E2E (Nightly)][cross-compile-nightly-pip-badge]][cross-compile-nightly-pip-action] | [![codecov][cross-compile-codecov-badge]][cross-compile-codecov]           | [![GitHub issues][cross-compile-issues-badge]][cross-compile-issues]                        | [![GitHub pull requests][cross-compile-pr-badge]][cross-compile-pr]                       |
 | [ros-tooling/libstatistics_collector]              | [![GitHub Action Status][libstatistics-collector-badge]][libstatistics-collector-action]              | N/A | [![codecov][libstatistics-collector-codecov-badge]][libstatistics-collector-codecov]                                                                        | [![GitHub issues][libstatistics-collector-issues-badge]][libstatistics-collector-issues]                            | [![GitHub pull requests][libstatistics-collector-pr-badge]][libstatistics-collector-pr]                           |
 | [ros-tooling/setup-ros]                | [![GitHub Action Status][setup-ros-badge]][setup-ros-action]                 | N/A | [![codecov][setup-ros-codecov-badge]][setup-ros-codecov]                                                                                             | [![GitHub issues][setup-ros-issues-badge]][setup-ros-issues]                                | [![GitHub pull requests][setup-ros-pr-badge]][setup-ros-pr]                               |
+| [ros-tooling/setup-ros-docker] | [![GitHub Action Status][setup-ros-docker-badge]]][setup-ros-docker-action] | N/A | N/A | [![GitHub issues][setup-ros-docker-issues-badge]][setup-ros-docker-issues] | [![GitHub pull requests][setup-ros-docker-pr-badge]][setup-ros-docker-pr]    
 | [ros-tooling/system_metrics_collector] | [![GitHub Action Status][system-metrics-badge]][system-metrics-action]        | [![End-to-end Testing (Nightly)][system-metrics-collector-nightly-badge]][system-metrics-collector-nightly-action]  | [![codecov][system-metrics-codecov-badge]][system-metrics-codecov]         | [![GitHub issues][system-metrics-collector-issues-badge]][system-metrics-collector-issues]  | [![GitHub pull requests][system-metrics-collector-pr-badge]][system-metrics-collector-pr] |
 | [ros2/rcpputils]                       | [![GitHub Action Status][rcpputils-badge]][rcpputils-action]                 | N/A | N/A                                                                        | [![GitHub issues][rcpputils-issues-badge]][rcpputils-issues]                                | [![GitHub pull requests][rcpputils-pr-badge]][rcpputils-pr]                               |
 
@@ -87,6 +88,7 @@
 [ros-tooling/file_talker]: https://github.com/ros-tooling/file_talker
 [ros-tooling/libstatistics_collector]: https://github.com/ros-tooling/libstatistics_collector
 [ros-tooling/setup-ros]: https://github.com/ros-tooling/setup-ros
+[ros-tooling/setup-ros-docker]: https://github.com/ros-tooling/setup-ros-docker
 [ros-tooling/system_metrics_collector]: https://github.com/ros-tooling/system_metrics_collector
 [ros2/rcpputils]: https://github.com/ros2/rcpputils
 [ros2/rosbag2]: https://github.com/ros2/rosbag2
@@ -261,6 +263,12 @@
 
 [setup-ros-action]: https://github.com/ros-tooling/setup-ros/actions
 [setup-ros-badge]: https://github.com/ros-tooling/setup-ros/workflows/Test%20setup-ros/badge.svg
+[setup-ros-docker-badge]: https://github.com/ros-tooling/setup-ros-docker/workflows/Build%20Docker%20image/badge.svg
+[setup-ros-docker-issues]: https://github.com/ros-tooling/setup-ros-docker/issues
+[setup-ros-docker-issues-badge]: https://img.shields.io/github/issues/ros-tooling/setup-ros-docker
+[setup-ros-docker-pr]: https://github.com/ros-tooling/setup-ros-docker/pulls
+[setup-ros-docker-pr-badge]: https://img.shields.io/github/issues-pr/ros-tooling/setup-ros-docker
+[setup-ros-docker-action]: https://github.com/ros-tooling/setup-ros-docker/actions
 [setup-ros-codecov]: https://codecov.io/gh/ros-tooling/setup-ros
 [setup-ros-codecov-badge]: https://codecov.io/gh/ros-tooling/setup-ros/branch/master/graph/badge.svg
 [setup-ros-issues]: https://github.com/ros-tooling/setup-ros/issues

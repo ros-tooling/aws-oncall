@@ -32,6 +32,7 @@ jobs:
         - osrf/osrf_testing_tools_cpp
         - ros-perception/laser_geometry
         - ros-planning/navigation_msgs
+        - ros-tooling/aws-oncall
         - ros-tooling/libstatistics_collector
         - ros-visualization/interactive_markers
         - ros-visualization/python_qt_binding

@@ -57,11 +57,11 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         since-n-days-ago: 30
         file-name: monthly-report
-    - uses: actions/upload-artifact@v2.1.1
+    - uses: actions/upload-artifact@v2.1.3
       with:
         name: html-report
         path: monthly-report.html
-    - uses: actions/upload-artifact@v2.1.1
+    - uses: actions/upload-artifact@v2.1.3
       with:
         name: markdown-report
         path: monthly-report.md

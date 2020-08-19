@@ -65,9 +65,3 @@ jobs:
       with:
         name: markdown-report
         path: weekly-report.md
-    - name: SendGrid
-      uses: peter-evans/sendgrid-action@v1.0.1
-      if: github.event_name != 'pull_request'  # Do no send e-mails on pull-requests
-      env:
-        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-        SCRIPT_FILEPATH: .github/weekly-report-sendgrid.js

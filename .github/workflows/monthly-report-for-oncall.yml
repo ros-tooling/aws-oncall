@@ -20,31 +20,20 @@ jobs:
     - uses: ros-security/github-contribution-report-generator@0.0.7
       with:
         authors-filter: |
-          AAlon
-          adam-dunc
-          brandonpelfrey
-          cevans87
           dabonnie
           emersonknapp
           gauravgh
           jaisontj
-          juanrh
           lichenbo
           mm318
           murphm8
-          nburek
-          piraka9011
           prajakta-gokhale
           r-meagher
           raghaprasad
-          ross-desmond
-          rutvih
           ryanewel
           samuelgundry
           thomas-moulard
-          timrobotson
           xabxx
-          yyu
           zmichaels11
         organizations-filter: |
           ament

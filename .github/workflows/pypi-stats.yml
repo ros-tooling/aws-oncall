@@ -1,0 +1,38 @@
+name: "Report pypi download stats for owned packages"
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+    schedule:
+      - cron: '0 9  * * *' # run every day at 9am (chosen randomly)
+
+jobs:
+  pypi_stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pypistats
+      - name: gather stats
+        run: |
+          python .github/workflows/pypi-stats.py --packages colcon-bundle colcon-ros-bundle ros_cross_compile > pypi-stats.json
+          cat pypi-stats.json
+      - uses: actions/upload-artifact@v2
+        with:
+          name: pypi-stats.json
+          path: pypi-stats.json
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      - uses: ros-tooling/action-cloudwatch-metrics@0.0.5
+        with:
+          metric-data: pypi-stats.json

@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    schedule:
-      - cron: '0 9  * * *' # run every day at 9am (chosen randomly)
+  schedule:
+    - cron: '0 9  * * *' # run every day at 9am (chosen randomly)
 
 jobs:
   pypi_stats:

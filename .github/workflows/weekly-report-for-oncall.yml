@@ -47,11 +47,11 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         since-n-days-ago: 7
         file-name: weekly-report
-    - uses: actions/upload-artifact@v2.2.0
+    - uses: actions/upload-artifact@v2.2.1
       with:
         name: html-report
         path: weekly-report.html
-    - uses: actions/upload-artifact@v2.2.0
+    - uses: actions/upload-artifact@v2.2.1
       with:
         name: markdown-report
         path: weekly-report.md

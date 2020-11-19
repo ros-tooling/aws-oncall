@@ -23,7 +23,7 @@ jobs:
         run: |
           python .github/workflows/pypi-stats.py --packages colcon-bundle colcon-ros-bundle ros_cross_compile > pypi-stats.json
           cat pypi-stats.json
-      - uses: actions/upload-artifact@v2.2.0
+      - uses: actions/upload-artifact@v2.2.1
         with:
           name: pypi-stats.json
           path: pypi-stats.json
